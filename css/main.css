@@ -6,19 +6,24 @@ html {
 h1, h2, h3, h4 {
   color: #3f1622;
   font-size: 1.5rem;
-  font-family: PT Sans;
+  font-family: "PT Sans";
 }
 
 main {
-  font-family: PT serif;
+  font-family: "PT serif";
 }
 
 h1 + ul {
   font-size: 1.125rem;
-  font-family: PT Sans;
+  font-family: "PT Sans";
   font-weight: bold;
   color: #8f2440;
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #8f2440;
 }
 
 img {
@@ -27,18 +32,18 @@ img {
 
 figcaption {
   font-style: italic;
-  font-family: PT serif;
+  font-family: "PT serif";
   text-align: center;
 }
 
- p:first-child {
+p:first-child {
   font-weight: bold;
 }
 
 blockquote {
- font-style: italic;
- font-size: 1.5rem;
- font-weight: normal;
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 
 cite {
@@ -49,11 +54,11 @@ dl {
   list-style-type: none;
 }
 
-dt {
+ .nutrition {
   font-style: italic;
 }
 
-dd {
+dt {
   font-weight: bold;
 }
 
@@ -68,4 +73,16 @@ h2 + ul {
 
 h4 + ul {
   list-style-type: circle;
+}
+
+a:hover {
+  color: #3f1622;
+}
+
+footer a {
+  font-weight: normal;
+}
+
+p:last-child {
+  font-weight: normal;
 }
