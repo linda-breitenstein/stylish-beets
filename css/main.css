@@ -10,7 +10,7 @@ h1, h2, h3, h4 {
 }
 
 main {
-  font-family: "PT serif";
+  font-family: "PT Serif";
 }
 
 h1 + nav {
@@ -37,7 +37,7 @@ img {
 
 figcaption {
   font-style: italic;
-  font-family: "PT serif";
+  font-family: "PT Serif";
   text-align: center;
 }
 
@@ -59,7 +59,7 @@ dl {
   list-style-type: none;
 }
 
- .nutrition {
+.nutrition {
   font-style: italic;
 }
 
