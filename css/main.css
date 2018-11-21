@@ -1,0 +1,67 @@
+html {
+  background-color: #c9b5ab;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+  color: #3f1622;
+  font-size: 1.5rem;
+  font-family: PT Sans;
+}
+
+main {
+  font-family: PT serif;
+}
+
+h1 + ul {
+  font-size: 1.125rem;
+  font-family: PT Sans;
+  font-weight: bold;
+  color: #8f2440;
+  list-style-type: none;
+}
+
+figcaption {
+  font-style: italic;
+  font-family: PT serif;
+  text-align: center;
+}
+
+ div + p {
+  font-weight: bold;
+}
+
+blockquote {
+ font-style: italic;
+ font-size: 1.5rem;
+ font-weight: normal;
+}
+
+cite {
+  font-size: 1rem;
+}
+
+dl {
+  list-style-type: none;
+}
+
+dt {
+  font-style: italic;
+}
+
+dd {
+  font-weight: bold;
+}
+
+data {
+  font-weight: normal;
+  text-overflow: ellipsis;
+}
+
+h2 + ul {
+  list-style-type: lower-greek;
+}
+
+h4 + ul {
+  list-style-type: circle;
+}
