@@ -79,6 +79,7 @@ h2 + ul {
 
 h4 + ul {
   list-style-type: circle;
+  font-size: 0.85rem;
 }
 
 a:hover {
