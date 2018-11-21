@@ -7,6 +7,7 @@ h1, h2, h3, h4 {
   color: #3f1622;
   font-size: 1.5rem;
   font-family: "PT Sans";
+  font-weight: bolder;
 }
 
 main {
@@ -19,7 +20,7 @@ h1 + nav {
   font-weight: bold;
   color: #8f2440;
   list-style-type: none;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 
 ol {
