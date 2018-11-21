@@ -13,12 +13,13 @@ main {
   font-family: "PT serif";
 }
 
-h1 + ul {
+h1 + nav {
   font-size: 1.125rem;
   font-family: "PT Sans";
   font-weight: bold;
   color: #8f2440;
   list-style-type: none;
+  ;line-height: 1.5rem;
 }
 
 a {
@@ -77,6 +78,7 @@ h4 + ul {
 
 a:hover {
   color: #3f1622;
+  text-decoration: underline;
 }
 
 footer a {
