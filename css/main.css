@@ -55,19 +55,20 @@ blockquote {
   font-style: italic;
   font-size: 1.5rem;
   font-weight: normal;
+  margin-bottom: .5em;
 }
 
 blockquote p:first-child {
-  font-weight: 400;
+  font-weight: normal;
   margin-bottom: 0;
+  font-family: "PT Serif";
 }
 
 footer {
   margin-top: .5em;
 }
-
 cite {
-  font-size: 1rem;
+  font-size: .8rem;
 }
 
 dl {
@@ -87,6 +88,10 @@ data {
   text-overflow: ellipsis;
 }
 
+h2 {
+  margin-top: .5em;
+}
+
 h2 + ul {
   list-style-type: lower-greek;
 }
@@ -94,6 +99,9 @@ h2 + ul {
 h4 + ul {
   list-style-type: circle;
   font-size: .85rem;
+}
+aside {
+  margin: 0;
 }
 
 a:hover {
