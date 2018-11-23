@@ -101,6 +101,11 @@ h4 + ul {
   list-style-type: circle;
   font-size: .85rem;
 }
+
+h4{
+  margin: 0;
+}
+
 aside {
   margin: 0;
 }
