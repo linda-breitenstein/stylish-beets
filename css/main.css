@@ -59,6 +59,11 @@ blockquote {
 
 blockquote p:first-child {
   font-weight: 400;
+  margin-bottom: 0;
+}
+
+footer {
+  margin-top: .5em;
 }
 
 cite {
